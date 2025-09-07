@@ -1,0 +1,1 @@
+Make sure to install vscode-pdf extension to see my implementation guide in the repo, project info will be found in backend/frontend directories readme's
