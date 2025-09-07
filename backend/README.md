@@ -40,4 +40,7 @@ Create a .env file in /backend and configure like so to run locally:
 You can start the development server like so:
 ```bash
 npm run start
+```
+
+For running this I have to configure users in the google and linkedin apps for this to work so this may not work locally for you but I have proven in the video, this does work
 
