@@ -15,6 +15,7 @@ This project is built to demonstrate OAuth authentication UI flow using social l
 - API-ready (integrates with any backend that supports Google and LinkedIn OAuth)
 
 ## Run the App
+Ensure when running locally that you are running on localhost:3000
 
 You can start the development server like so:
 ```bash
