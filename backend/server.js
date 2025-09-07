@@ -121,11 +121,14 @@ app.get('/auth/linkedin/callback',
   }
 );
 
-
 (async () => {
-  await connectToMongoDB();
+  try {
+    await connectToMongoDB();
 
-  app.listen(PORT, () => {
-    console.info(`Server running on ${baseUrl}`);
-  });
-})()
+    app.listen(PORT, () => {
+      console.info(`Server running on ${baseUrl}`);
+    });
+  } catch (error) {
+    console.error('MongoDB connection failed:', error);
+  }
+})();
